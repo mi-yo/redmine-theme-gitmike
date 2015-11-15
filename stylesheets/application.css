@@ -8,9 +8,11 @@
  */
 body { color: #333; background-color: white; }
 
-body, input, select, textarea, button { font: 12px Helvetica, arial, freesans, clean, sans-serif; line-height: 1.4; }
+body, select, button { font: 12px Meiryo, Helvetica, arial, freesans, clean, sans-serif; line-height: 1.4; }
 
-tt, code, pre { font-family: Consolas, "Liberation Mono", Courier, monospace; font-size: 12px; }
+input, textarea, tt, code, pre { font-family: MS Gothic, Consolas, "Liberation Mono", Courier, monospace; font-size: 12px; }
+
+input, textarea { line-height: 1.4; }
 
 #content h1, h2, h3, h4 { color: #333; }
 
@@ -20,7 +22,7 @@ tt, code, pre { font-family: Consolas, "Liberation Mono", Courier, monospace; fo
 
 #main { background: transparent; margin: 15px 15px 0px 15px; background-color: white; }
 
-#top-menu { font: 12px Helvetica, arial, freesans, clean, sans-serif; padding: 10px 10px 2px 20px; background-color: #f3f3f3; background-image: -webkit-linear-gradient(#f9f9f9, #f3f3f3); background-image: linear-gradient(#f9f9f9, #f3f3f3); background-repeat: repeat-x; text-shadow: 0 1px 0 #fff; border-bottom: 1px solid #e5e5e5; }
+#top-menu { font: 12px Meiryo, Helvetica, arial, freesans, clean, sans-serif; padding: 10px 10px 2px 20px; background-color: #f3f3f3; background-image: -webkit-linear-gradient(#f9f9f9, #f3f3f3); background-image: linear-gradient(#f9f9f9, #f3f3f3); background-repeat: repeat-x; text-shadow: 0 1px 0 #fff; border-bottom: 1px solid #e5e5e5; }
 #top-menu #loggedas { color: #222; }
 #top-menu a { color: #333; font-weight: bold; padding: 5px; margin-right: 0px; -webkit-transition: color .15s ease-in 0; transition: color .15s ease-in 0; text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5); }
 #top-menu a:hover { color: #4183C4; text-decoration: none; }
@@ -112,7 +114,7 @@ tr.assigned-to-me td.assigned_to, tr.created-by-me td.author { font-weight: bold
 
 table.list td { padding: 4px; }
 table.list input[type="checkbox"] { margin-top: 6px; }
-table.list tbody tr.group span.count { border-radius: 2px; background-color: #eee; color: #999; text-shadow: 0 1px 0 #fff; font-weight: bold; font: 12px Helvetica, arial, freesans, clean, sans-serif; line-height: 1.4; padding: 2px 5px; box-shadow: inset 0 -1px 0 #e3e3e3; }
+table.list tbody tr.group span.count { border-radius: 2px; background-color: #eee; color: #999; text-shadow: 0 1px 0 #fff; font-weight: bold; font: 12px Meiryo, Helvetica, arial, freesans, clean, sans-serif; line-height: 1.4; padding: 2px 5px; box-shadow: inset 0 -1px 0 #e3e3e3; }
 table.list tbody tr:hover { background-color: #EFF5F8; }
 table.list tr.issue a { color: #666; }
 
