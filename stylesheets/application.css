@@ -221,7 +221,9 @@ div.wiki.wiki-page > h2 { border-bottom: 1px solid #eee; }
 div.wiki ul.toc { padding: 10px; }
 div.wiki img { max-width: 100%; }
 div.wiki table img { width: 100%; }
+div.wiki code { background-color: #f8f8f8; border: 1px solid #ddd; white-space: nowrap; padding: 2px 4px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
 div.wiki pre { margin: 15px 0; background-color: #f8f8f8; border: 1px solid #ddd; font-size: 13px; line-height: 19px; overflow: auto; padding: 6px 10px; border-radius: 3px; }
+div.wiki pre code { background: none; border: none; padding: 0; white-space: pre-wrap; }
 
 #projects-index ul.projects ul.projects { border-left: 3px solid #E0E0E0; }
 #projects-index ul.projects.root { padding: 10px; }
